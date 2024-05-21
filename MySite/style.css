@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    /* color: #fff; */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('./assets/security.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+header {
+    display: inline;
+    background: rgb(116, 3, 91);
+    color: #fff;#3;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    text-align: center;
+    font-size: 16px;
+}
+
+nav {
+    /* background: #444; */
+    color: #fff;
+    padding: 10px 0;
+    background-color: rgba(25, 255, 255, 0.5)
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: #ccc 1px solid;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    width: 80%;
+    margin: auto;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    padding: 10px 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0;
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+.highlight1 {
+    background-color: rgb(5, 5, 5); /* Change this to any color you prefer */
+    padding: 2px; /* Optional: Add some padding to make the background color stand out more */
+    border-radius: 14px; /* Optional: Add rounded corners */
+    padding: 10px;
+    margin-right: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.highlight {
+    background-color: rgb(1, 0, 2); /* Change this to any color you prefer */
+    padding: 2px; /* Optional: Add some padding to make the background color stand out more */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    padding: 10px;
+    
+}
+#top-left{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;  
+}
+#top-left img {
+    margin-right: 10px; /* Adjust the spacing as needed */
+}
+.head3{
+    background-color: rgb(163, 3, 3); /* Change this to any color you prefer */
+    padding: 2px; /* Optional: Add some padding to make the background color stand out more */
+    border-radius: 14px; /* Optional: Add rounded corners */
+    padding: 10px;
+    margin-left: 600px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about-me-all{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 4, 7);
+    font-style:italic;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.workden{
+    display: inline-block;
+    text-align: center;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    font-weight:600;
+}
+#workdone{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#skills{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-image: url('./assets/images.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    color: rgb(255, 2, 2);
+    
+}
+#skills-id{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.skil-li{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: wheat;
+    border-radius: 20px;
+    text-align: center;
+}
+.project{
+    background-color: aqua;
+    padding: 12px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+#contact{
+    background-color: rgb(223, 223, 192);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+label{
+    display: block;
+    margin-left: 12px;
+    text-align: left;
+  }
+  
+textarea{
+    text-align: left;
+    width: 260px;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #1E2738; 
+    border-radius: 8px;
+  }
+#box{
+    text-align: left;
+}
